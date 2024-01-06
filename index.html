@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Rentals</title>
+    <link rel="icon" href="images/link-icon.png" />
+    <link rel="stylesheet" type="text/css" href="./css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- -------------------------header------------------------- -->
+    <header class="py-5">
+      <!-- ---------navbar--------- -->
+      <nav class="navbar navbar-expand-lg navbar-dark position-fixed fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item ml-2">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item ml-2">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item ml-2">
+                <a class="nav-link" href="#model">CARS</a>
+              </li>
+              <li class="nav-item ml-2">
+                <a class="nav-link" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item ml-2">
+                <a class="nav-link" href="#support">TEAM</a>
+              </li>
+              <li class="nav-item ml-2">
+                <a class="nav-link" href="#blog">BLOG</a>
+              </li>
+              <li class="nav-item ml-2">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+              <li class="nav-item ml-2">
+                <a class="nav-link" href="#" onclick="return false;">PAGES</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- ---------Hero--------- -->
+      <div class="container pt-3">
+        <div class="row">
+          <div class="col-sm-12 col-md-7 align-self-center text-white my-5">
+            <h6 class="mb-4">THE ROUYAL ESSENCE OF JOURNEY</h6>
+            <h1 class="mb-4">RELAXED JOURNEY EVER</h1>
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla,
+              quas. Ipsa explicabo id distinctio consectetur delectus officiis
+              Karlll-Xtillidiex.
+            </p>
+            <button type="button" class="btn btn-warning text-white rounded-0">
+              RENT CAR NOW
+            </button>
+          </div>
+          <!-- ---------booking--------- -->
+          <div class="col-sm-12 col-md-5 p-5 booking">
+            <h4 class="mb-4 text-white">Book Your Car Today!</h4>
+
+            <form>
+              <div class="form-group s1">
+                <select
+                  name="car"
+                  class="form-control"
+                  id="exampleFormControlSelect1"
+                  required
+                >
+                  <option value="" selected disabled hidden>
+                    Select Your Car
+                  </option>
+                  <option value="Nissan">Nissan</option>
+                  <option value="Honda">Honda</option>
+                  <option value="Chevrolet">Chevrolet</option>
+                  <option value="Mercedes">Mercedes</option>
+                  <option value="BMW">BMW</option>
+                  <option value="Audi">Audi</option>
+                </select>
+              </div>
+              <div class="row">
+                <div class="form-group col-6 col-md-12 col-lg-6 mt-2">
+                  <select
+                    name="Pickup"
+                    class="form-control"
+                    id="exampleFormControlSelect1"
+                    required
+                  >
+                    <option value="" selected disabled hidden>Pickup</option>
+                    <option>6 AM</option>
+                    <option>7 AM</option>
+                    <option>8 AM</option>
+                    <option>9 AM</option>
+                    <option>10 AM</option>
+                    <option>11 AM</option>
+                    <option>12 PM</option>
+                    <option>1 PM</option>
+                    <option>2 PM</option>
+                    <option>3 PM</option>
+                    <option>4 PM</option>
+                    <option>5 PM</option>
+                    <option>6 PM</option>
+                    <option>7 PM</option>
+                    <option>8 PM</option>
+                    <option>9 PM</option>
+                  </select>
+                </div>
+                <div class="form-group col-6 col-md-12 col-lg-6 mt-2">
+                  <input
+                    name="Pickup"
+                    type="date"
+                    class="form-control"
+                    placeholder="Date & Time"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-6 col-md-12 col-lg-6 mt-2">
+                  <select
+                    name="DropOff"
+                    class="form-control"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option selected disabled hidden>Drop Off</option>
+                    <option>6 AM</option>
+                    <option>7 AM</option>
+                    <option>8 AM</option>
+                    <option>9 AM</option>
+                    <option>10 AM</option>
+                    <option>11 AM</option>
+                    <option>12 PM</option>
+                    <option>1 PM</option>
+                    <option>2 PM</option>
+                    <option>3 PM</option>
+                    <option>4 PM</option>
+                    <option>5 PM</option>
+                    <option>6 PM</option>
+                    <option>7 PM</option>
+                    <option>8 PM</option>
+                    <option>9 PM</option>
+                  </select>
+                </div>
+                <div class="form-group col-6 col-md-12 col-lg-6 mt-2">
+                  <input
+                    name="DropOff"
+                    type="date"
+                    class="form-control"
+                    placeholder="Date & Time"
+                  />
+                </div>
+              </div>
+              <input
+                name="Name"
+                type="text"
+                class="form-control mb-2"
+                placeholder="Your Name"
+                required
+              />
+              <input
+                name="Email"
+                type="email"
+                class="form-control mt-3"
+                placeholder="Email Address"
+                required
+              />
+              <input
+                name="PhoneNumber"
+                type="tel"
+                class="form-control mt-3"
+                placeholder="Phone Number"
+                required
+              />
+              <input
+                name="submit"
+                type="submit"
+                class="form-control mt-3 btn btn-warning text-white"
+                value="CONFIRM CAR BOOKING"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- -------------------------Services------------------------- -->
+    <section id="services" class="py-4">
+      <div class="container">
+        <h2 class="text-center">What Services We offer to our Clients</h2>
+        <small class="d-block text-center text-muted mb-5">
+          Who are in extremely love with eco friendly system.
+        </small>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <article class="px-4 py-3 mb-4 rounded-lg">
+              <h5 class="d-flex align-items-center mb-3">
+                <img src="./images/icons/ico1.jpg" alt="icon1" class="mr-2" />
+                Expert Technicians
+              </h5>
+              <p>
+                Usage of the internet is becoming more common due to rapid
+                advancement of technology and power.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="px-4 py-3 mb-4 rounded-lg">
+              <h5 class="d-flex align-items-center mb-3">
+                <img src="./images/icons/ico2.jpg" alt="icon2" class="mr-2" />
+                Professional Service
+              </h5>
+              <p>
+                Usage of the internet is becoming more common due to rapid
+                advancement of technology and power.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="px-4 py-3 mb-4 rounded-lg">
+              <h5 class="d-flex align-items-center mb-3">
+                <img src="./images/icons/ico3.jpg" alt="icon3" class="mr-2" />
+                Great support
+              </h5>
+              <p>
+                Usage of the internet is becoming more common due to rapid
+                advancement of technology and power.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="px-4 py-3 mb-4 rounded-lg">
+              <h5 class="d-flex align-items-center mb-3">
+                <img src="./images/icons/ico4.jpg" alt="icon4" class="mr-2" />
+                Technical Skills
+              </h5>
+              <p>
+                Usage of the internet is becoming more common due to rapid
+                advancement of technology and power.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="px-4 py-3 mb-4 rounded-lg">
+              <h5 class="d-flex align-items-center mb-3">
+                <img src="./images/icons/ico5.jpg" alt="icon5" class="mr-2" />
+                Highly Recomended
+              </h5>
+              <p>
+                Usage of the internet is becoming more common due to rapid
+                advancement of technology and power.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="px-4 py-3 mb-4 rounded-lg">
+              <h5 class="d-flex align-items-center mb-3">
+                <img src="./images/icons/ico6.jpg" alt="icon6" class="mr-2" />
+                Positive Reviws
+              </h5>
+              <p>
+                Usage of the internet is becoming more common due to rapid
+                advancement of technology and power.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------About------------------------- -->
+    <section id="about" class="my-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-7 mb-5">
+            <img src="images/about-img.jpg" alt="about" class="w-100" />
+          </div>
+          <div class="col-sm-12 col-md-5 mt-5">
+            <h2 class="mb-3">Globally Connected By Large Network</h2>
+            <small class="h6 mb-3">
+              We are here to listen from you deliver exellence
+            </small>
+            <p class="mt-4 mb-4 text-muted text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. alias
+              dolorem quia. Architecto atque ut dolor, beatae excepturi vel
+              aspernatur sed quod itaque facilis illo perspiciatis amet et
+              magni?
+            </p>
+            <button
+              type="button"
+              class="btn btn-warning text-white px-5 rounded-0"
+            >
+              GET DETAILS
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------Model------------------------- -->
+    <section id="model" class="pt-2">
+      <div class="container">
+        <h2 class="text-center">Choose your Desired Car Model</h2>
+        <small class="d-block text-center text-muted mb-3">
+          Who are in extremely love with eco friendly system.
+        </small>
+
+        <div class="row">
+          <div class="col-sm-12 col-md-5 mt-5 px-3">
+            <div class="row">
+              <div class="col-md-6 align-self-end">
+                <h5 class="font-weight-bold">Audi 3000 msi</h5>
+              </div>
+              <div class="col-md-6 text-right text-warning">
+                <h2 class="font-weight-bold">$149 <small>/day</small></h2>
+              </div>
+            </div>
+
+            <p class="mt-4 mb-4 text-muted text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. alias
+              dolorem quia. Architecto atque ut dolor.
+              <br />
+              <br />
+              Capacity: 04 Person
+              <br />
+              Doors: 04
+              <br />
+              Air Condition: Dual Zone
+              <br />
+              Transmission: Automatic
+            </p>
+            <button
+              type="button"
+              class="btn btn-dark text-white px-4 rounded-0"
+            >
+              BOOK THIS CAR NOW
+            </button>
+          </div>
+
+          <div class="col-sm-12 col-md-7 my-4">
+            <img src="images/car.jpg" alt="model" class="w-100" />
+          </div>
+        </div>
+        <div class="text-center mb-5">
+          <i class="fa-solid fa-square" style="color: #fab701"></i> &nbsp;
+          <i class="fa-solid fa-square" style="color: #bfbfbf"></i> &nbsp;
+          <i class="fa-solid fa-square" style="color: #bfbfbf"></i>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------Support------------------------- -->
+    <section id="support" class="py-5">
+      <div class="container py-5">
+        <h2 class="text-center text-white pd-2">Experience Great Support</h2>
+        <small class="d-block text-center mb-4 text-white pt-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          quibusdam nisi reprehenderit ducimus totam delectus, numquam illum
+          accusamus ea fuga obcaecati officiis neque aperiam sequi eveniet iste.
+          Provident, dolores ullam.
+        </small>
+        <button
+          type="button"
+          class="btn btn-outline-warning text-warning rounded-0 d-block mx-auto px-4"
+        >
+          REACH OUR SUPPORT TEAM
+        </button>
+      </div>
+    </section>
+    <!-- -------------------------Blog------------------------- -->
+    <section id="blog" class="py-5">
+      <div class="container">
+        <h2 class="text-center">Lastest from Our Blog</h2>
+        <small class="d-block text-center text-muted mb-5 w-75 mx-auto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+          sapiente reiciendis quam corrupti beatae doloribus eos fugiat
+          perspiciatis
+        </small>
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <article class="py-3 mb-4">
+              <img src="images/b1.jpg" alt="" class="w-100 d-block mx-auto" />
+              <small
+                id="date"
+                class="my-3 text-white text-center py-1 d-block w-50 font-weight-lighter"
+                >10 Jan 2018</small
+              >
+              <h5>Addiciction When Gambling Becomes A Problem</h5>
+              <small class="ml-0 mb-2 text-muted">
+                Lorem ipsum dolor sit amet elit ea, eos sapiente
+              </small>
+              <div class="row mt-3">
+                <div class="col-5">
+                  <small class="d-flex align-items-center text-muted">
+                    <img
+                      src="images/icons/like-ico.jpg"
+                      alt="like"
+                      class="mr-1"
+                    />15 Likes
+                  </small>
+                </div>
+                <div class="col-7">
+                  <small
+                    class="d-flex align-items-center text-muted justify-content-end"
+                  >
+                    <img
+                      src="images/icons/comment-ico.jpg"
+                      alt="comment"
+                      class="mr-1"
+                    />02 Comments
+                  </small>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <article class="py-3 mb-4">
+              <img src="images/b2.jpg" alt="" class="w-100 d-block mx-auto" />
+              <small
+                id="date"
+                class="my-3 text-white text-center py-1 d-block w-50 font-weight-lighter"
+                >10 Jan 2018</small
+              >
+              <h5>Addiciction When Gambling Becomes A Problem</h5>
+              <small class="ml-0 mb-2 text-muted">
+                Lorem ipsum dolor sit amet elit ea, eos sapiente
+              </small>
+              <div class="row mt-3">
+                <div class="col-5">
+                  <small class="d-flex align-items-center text-muted">
+                    <img
+                      src="images/icons/like-ico.jpg"
+                      alt="like"
+                      class="mr-1"
+                    />15 Likes
+                  </small>
+                </div>
+                <div class="col-7">
+                  <small
+                    class="d-flex align-items-center text-muted justify-content-end"
+                  >
+                    <img
+                      src="images/icons/comment-ico.jpg"
+                      alt="comment"
+                      class="mr-1"
+                    />02 Comments
+                  </small>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <article class="py-3 mb-4">
+              <img src="images/b3.jpg" alt="" class="w-100 d-block mx-auto" />
+              <small
+                id="date"
+                class="my-3 text-white text-center py-1 d-block w-50 font-weight-lighter"
+                >10 Jan 2018</small
+              >
+              <h5>Addiciction When Gambling Becomes A Problem</h5>
+              <small class="ml-0 mb-2 text-muted">
+                Lorem ipsum dolor sit amet elit ea, eos sapiente
+              </small>
+              <div class="row mt-3">
+                <div class="col-5">
+                  <small class="d-flex align-items-center text-muted">
+                    <img
+                      src="images/icons/like-ico.jpg"
+                      alt="like"
+                      class="mr-1"
+                    />15 Likes
+                  </small>
+                </div>
+                <div class="col-7">
+                  <small
+                    class="d-flex align-items-center text-muted justify-content-end"
+                  >
+                    <img
+                      src="images/icons/comment-ico.jpg"
+                      alt="comment"
+                      class="mr-1"
+                    />02 Comments
+                  </small>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <article class="py-3 mb-4">
+              <img src="images/b4.jpg" alt="" class="w-100 d-block mx-auto" />
+              <small
+                id="date"
+                class="my-3 text-white text-center py-1 d-block w-50 font-weight-lighter"
+                >10 Jan 2018</small
+              >
+              <h5>Addiciction When Gambling Becomes A Problem</h5>
+              <small class="ml-0 mb-2 text-muted">
+                Lorem ipsum dolor sit amet elit ea, eos sapiente
+              </small>
+              <div class="row mt-3">
+                <div class="col-5">
+                  <small class="d-flex align-items-center text-muted">
+                    <img
+                      src="images/icons/like-ico.jpg"
+                      alt="like"
+                      class="mr-1"
+                    />15 Likes
+                  </small>
+                </div>
+                <div class="col-7">
+                  <small
+                    class="d-flex align-items-center text-muted justify-content-end"
+                  >
+                    <img
+                      src="images/icons/comment-ico.jpg"
+                      alt="comment"
+                      class="mr-1"
+                    />02 Comments
+                  </small>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------Footer------------------------- -->
+    <footer id="contact" class="pt-5 pb-1">
+      <div class="container">
+        <div class="row text-white">
+          <div class="col-6 col-md-4 col-lg-2 bor">
+            <h5>Quick links</h5>
+            <ul class="list-unstyled py-2">
+              <li><a href="#contact" class="text-muted">Jobs</a></li>
+              <li><a href="#contact" class="text-muted">Brand Assets</a></li>
+              <li>
+                <a href="#contact" class="text-muted">Investor Relations</a>
+              </li>
+              <li>
+                <a href="#contact" class="text-muted">Terms of Service</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Features</h5>
+            <ul class="list-unstyled py-2">
+              <li><a href="#contact" class="text-muted">Jobs</a></li>
+              <li><a href="#contact" class="text-muted">Brand Assets</a></li>
+              <li>
+                <a href="#contact" class="text-muted">Investor Relations</a>
+              </li>
+              <li>
+                <a href="#contact" class="text-muted">Terms of Service</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Resources</h5>
+            <ul class="list-unstyled py-2">
+              <li><a href="#contact" class="text-muted">Jobs</a></li>
+              <li><a href="#contact" class="text-muted">Brand Assets</a></li>
+              <li>
+                <a href="#contact" class="text-muted">Investor Relations</a>
+              </li>
+              <li>
+                <a href="#contact" class="text-muted">Terms of Service</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Follow Us</h5>
+            <ul class="list-unstyled pt-2">
+              <li class="text-muted">Let us be social</li>
+            </ul>
+            <p>
+              <a href="https://facebook.com/car-rentals" target="_blank"
+                ><i class="fa-brands fa-facebook" style="color: #ffffff"></i
+              ></a>
+              &nbsp;&nbsp;<a
+                href="https://twitter.com/car-rentals"
+                target="_blank"
+                ><i class="fa-brands fa-x-twitter" style="color: #ffffff"></i
+              ></a>
+              &nbsp;&nbsp;<a
+                href="https://www.instagram.com/car-rentals/"
+                target="_blank"
+                ><i class="fa-brands fa-instagram" style="color: #ffffff"></i
+              ></a>
+              &nbsp;&nbsp;<a href="#contact"
+                ><i class="fa-brands fa-whatsapp" style="color: #ffffff"></i
+              ></a>
+              &nbsp;&nbsp;<a href="#contact"
+                ><i class="fa-brands fa-behance" style="color: #ffffff"></i
+              ></a>
+            </p>
+          </div>
+          <div class="col-12 col-md-8 col-lg-4">
+            <h5>Newsletter</h5>
+            <ul class="list-unstyled py-2">
+              <li class="text-muted">Stay update with our latest</li>
+            </ul>
+            <form class="buttonIn">
+              <input
+                name="newsEmail"
+                type="email"
+                class="form-control"
+                placeholder="Enter Email"
+                required
+              />
+              <button type="submit" class="form-control btn-warning">
+                <i class="fa-solid fa-arrow-right" style="color: #ffffff"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <p class="text-center text-muted mt-5">
+          copyright &copy; 2023 MO.Ibrahim All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- //////////////////////// scripts //////////////////////// -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>

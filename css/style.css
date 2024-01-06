@@ -1,0 +1,61 @@
+/* ------------------------header------------------------ */
+
+header {
+  background: rgba(0, 0, 0, 0.7) url(../images/header-bg.jpg) no-repeat center
+    center/cover;
+  background-blend-mode: overlay;
+}
+header nav {
+  background: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+}
+
+.booking {
+  background-color: rgba(0, 0, 40, 0.4);
+  outline: 1px outset #fff;
+}
+/* ------------------------services------------------------  */
+#services article {
+  background-color: #ededf7;
+}
+/* ------------------------support------------------------  */
+
+#support {
+  background: rgba(0, 0, 0, 0.7) url(../images/callaction-bg.jpg) no-repeat
+    center center/cover;
+  background-blend-mode: overlay;
+}
+#support button:hover {
+  color: white !important;
+}
+/* ------------------------Blog------------------------  */
+#blog h5 {
+  font-size: 1.2rem;
+}
+#blog #date {
+  background-color: black;
+}
+/* ------------------------Footer------------------------  */
+footer {
+  background-color: #04091d;
+}
+
+footer li {
+  line-height: 1.7;
+}
+
+footer .buttonIn {
+  position: relative;
+}
+.buttonIn input {
+  width: 100%;
+}
+
+.buttonIn button {
+  width: 15%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 2;
+  cursor: pointer;
+}
